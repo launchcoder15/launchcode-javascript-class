@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'sql-selections' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly cache add args [ 'sql-selections', null ]
+5 verbose cache add spec sql-selections
+6 silly cache add parsed spec { raw: 'sql-selections',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'sql-selections',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed sql-selections@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'sql-selections', range: '*', hasData: false }
+11 silly mapToRegistry name sql-selections
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/sql-selections
+15 verbose addNameRange registry:https://registry.npmjs.org/sql-selections not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/sql-selections
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 10:48:28 AM
+19 verbose request id 7d971ab19ed83a5f
+20 http request GET https://registry.npmjs.org/sql-selections
+21 http 200 https://registry.npmjs.org/sql-selections
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"3WX2G8FJYY1CRGTXQD9KX8PXF"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     'content-length': '8894',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Fri, 05 Jun 2015 15:48:23 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-ord1721-ORD',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1433519303.503062,VS0,VE43',
+22 silly get     vary: 'Accept' } ]
+23 verbose get saving sql-selections to /Users/alex/.npm/registry.npmjs.org/sql-selections/.cache.json
+24 silly addNameRange number 2 { name: 'sql-selections', range: '*', hasData: true }
+25 silly addNameRange versions [ 'sql-selections', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+26 verbose addNamed sql-selections@0.1.2
+27 silly addNamed semver.valid 0.1.2
+28 silly addNamed semver.validRange 0.1.2
+29 silly mapToRegistry name sql-selections
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/sql-selections
+33 verbose addRemoteTarball https://registry.npmjs.org/sql-selections/-/sql-selections-0.1.2.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/sql-selections/-/sql-selections-0.1.2.tgz',
+34 verbose addRemoteTarball   '4ff066e24f80f168cf479370e6c303e04b30d116' ]
+35 info retry fetch attempt 1 at 10:48:29 AM
+36 info attempt registry request try #1 at 10:48:29 AM
+37 http fetch GET https://registry.npmjs.org/sql-selections/-/sql-selections-0.1.2.tgz
+38 http fetch 200 https://registry.npmjs.org/sql-selections/-/sql-selections-0.1.2.tgz
+39 silly fetchAndShaCheck shasum 4ff066e24f80f168cf479370e6c303e04b30d116
+40 verbose addTmpTarball /var/folders/0f/k8yrrwsd7g113s6v6xp0ltj40000gp/T/npm-69131-c3d48ea3/registry.npmjs.org/sql-selections/-/sql-selections-0.1.2.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for sql-selections@0.1.2
+42 silly cache afterAdd sql-selections@0.1.2
+43 verbose afterAdd /Users/alex/.npm/sql-selections/0.1.2/package/package.json not in flight; writing
+44 verbose afterAdd /Users/alex/.npm/sql-selections/0.1.2/package/package.json written
+45 silly install resolved [ { name: 'sql-selections',
+45 silly install resolved     version: '0.1.2',
+45 silly install resolved     repository:
+45 silly install resolved      { type: 'git',
+45 silly install resolved        url: 'https://github.com/chrisbay/sql-selections' },
+45 silly install resolved     license: 'GNU GPL v2',
+45 silly install resolved     bin: { 'sql-selections': './sql-selections.js' },
+45 silly install resolved     dependencies:
+45 silly install resolved      { workshopper: '1.x',
+45 silly install resolved        'workshopper-exercise': '^0.2.2',
+45 silly install resolved        'workshopper-wrappedexec': '^0.1.1',
+45 silly install resolved        mysql: '^2.6' },
+45 silly install resolved     gitHead: 'f6c8e1b5ddd80c4d6ac0b7bfeb1ce63a29a0dbc7',
+45 silly install resolved     description: 'Install this workshopper by running the following at a command prompt: ``` npm install -g sql-selections ````',
+45 silly install resolved     bugs: { url: 'https://github.com/chrisbay/sql-selections/issues' },
+45 silly install resolved     homepage: 'https://github.com/chrisbay/sql-selections',
+45 silly install resolved     _id: 'sql-selections@0.1.2',
+45 silly install resolved     scripts: {},
+45 silly install resolved     _shasum: '4ff066e24f80f168cf479370e6c303e04b30d116',
+45 silly install resolved     _from: 'sql-selections@*',
+45 silly install resolved     _npmVersion: '2.7.5',
+45 silly install resolved     _nodeVersion: '0.12.1',
+45 silly install resolved     _npmUser: { name: 'chrisbay', email: 'chris@chrisbay.net' },
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: '4ff066e24f80f168cf479370e6c303e04b30d116',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/sql-selections/-/sql-selections-0.1.2.tgz' },
+45 silly install resolved     maintainers: [ [Object] ],
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/sql-selections/-/sql-selections-0.1.2.tgz' } ]
+46 info install sql-selections@0.1.2 into /usr/local/lib
+47 info installOne sql-selections@0.1.2
+48 verbose installOne of sql-selections to /usr/local/lib not in flight; installing
+49 warn locking Error: EACCES, open '/Users/alex/.npm/_locks/sql-selections-17c09278b7117c3c.lock'
+49 warn locking     at Error (native)
+49 warn locking  /Users/alex/.npm/_locks/sql-selections-17c09278b7117c3c.lock failed { [Error: EACCES, open '/Users/alex/.npm/_locks/sql-selections-17c09278b7117c3c.lock']
+49 warn locking   errno: -13,
+49 warn locking   code: 'EACCES',
+49 warn locking   path: '/Users/alex/.npm/_locks/sql-selections-17c09278b7117c3c.lock' }
+50 verbose stack Error: Attempt to unlock /usr/local/lib/node_modules/sql-selections, which hasn't been locked
+50 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+50 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1004:5)
+50 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1008:20
+50 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+50 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+50 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+50 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+51 verbose cwd /Applications/MAMP/htdocs/thisisthemodernweb/submissions/launchcoder15/launchcode-javascript-class/getitdone-jquery
+52 error Darwin 14.0.0
+53 error argv "node" "/usr/local/bin/npm" "install" "-g" "sql-selections"
+54 error node v0.12.2
+55 error npm  v2.7.4
+56 error Attempt to unlock /usr/local/lib/node_modules/sql-selections, which hasn't been locked
+57 error If you need help, you may report this error at:
+57 error     <https://github.com/npm/npm/issues>
+58 verbose exit [ 1, true ]
