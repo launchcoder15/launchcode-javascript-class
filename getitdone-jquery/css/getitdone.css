@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'Questrial', sans-serif;
+	font-style: normal;
+	src: url(http://fonts.googleapis.com/css?family=Questrial);
+}
+
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	font-size: normal;
+	src: url(http://fonts.googleapis.com/css?family=Open+Sans);
+}
+
+@font-face {
+	font-family: 'Hind', sans-serif;
+	font-style: normal;
+	src: url(http://fonts.googleapis.com/css?family=Hind:400,600);
+}
+
+.container-fluid {
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	font-size: 1.1em;
+	width: 100%;
+	background: SeaShell;
+    padding: 0.8em 1em 0.8em 1em;
+    margin-top: 0.3em; 
+}
+
+.jumbotron {
+	background: #339966;
+	min-width: 10em;
+}
+
+.h1 {
+    font-family: 'Questrial', sans-serif;
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+}
+
+.h3 {
+	font-family: 'Hind', sans-serif;
+	/*font-family: Gill Sans, Verdana;*/
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-weight: bold;
+	margin-top: 0em;
+}
+
+#submit {
+	height: 2.5em;
+	line-height: 2.5em;
+	font-size: 1.75em;
+	margin-bottom: 0.5em;
+}
+
+#add {
+	height: 2.75em;
+	width: 6em;
+	margin-left: 1em;
+
+}
+
+/*.panel-heading {
+	margin-top: 0em;
+	margin-bottom: 1em;
+	text-align: center;
+	padding-right: 0em;	
+	padding-left: 0em;
+}*/
+.todo {
+	margin-top: 0em;
+	margin-bottom: 1em;
+	text-align: center;
+	padding-right: 0em;
+}
+
+.done {
+	margin-top: 0em;
+	margin-bottom: 1em;
+	text-align: center;
+	padding-left: 0em;
+}
+
+.col-xs-6 {
+	text-align: center;
+}
+
+.list {
+	margin: 0 auto;
+}
+
+.complete {
+	margin: 0 auto;
+}
+
+ul {
+	color: #5E5E58;
+	font-size: 1.7em;
+	text-align: center;
+	width: 70%;
+	padding: 2em;
+	list-style-type: none;
+}
+
+.getMoving {
+	text-align: center;
+}
+
+.lineThrough {
+	text-align: center;
+}
+
+#glyphiconDelete {
+	/*width: 1em;*/
+	float: right;
+}
+
+#glyphiconCheck {
+	margin-left: 0.5em;
+	float: right;
+}
+
+
